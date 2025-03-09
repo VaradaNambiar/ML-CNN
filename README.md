@@ -50,8 +50,11 @@ Before you begin, ensure you have the following installed:
 
 ## Usage
 
-Using jupyter notebook: 
-
+Using jupyter notebook:   
+0. install a new kernel with the venv created 
+   ```bash
+   python -m ipykernel install --user --name=<venv_name>
+   ```  
 1. open a terminal in the folder where you cloned the repo.
 2. activate the virtual environment.
 3. type jupyter notebook and press enter.
